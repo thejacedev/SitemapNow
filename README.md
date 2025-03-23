@@ -4,7 +4,6 @@
 
 [![CI](https://github.com/TheRealPerson98/SitemapNow/workflows/CI/badge.svg)](https://github.com/TheRealPerson98/SitemapNow/actions)
 [![npm version](https://img.shields.io/npm/v/sitemapnow.svg?style=flat)](https://www.npmjs.com/package/sitemapnow)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 **A CLI tool to submit URLs from a sitemap to IndexNow, helping you get your website indexed faster by search engines.**
 
