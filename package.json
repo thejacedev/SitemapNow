@@ -1,0 +1,67 @@
+{
+  "name": "sitemapnow",
+  "version": "1.0.0",
+  "description": "CLI to submit URLs from a sitemap to IndexNow",
+  "main": "dist/index.js",
+  "bin": {
+    "sitemapnow": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "dev:simple": "tsc && node dist/index.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "check:deps": "npx depcheck",
+    "check:security": "npm audit",
+    "ci": "npm run lint && npm run test && npm run check:deps"
+  },
+  "keywords": [
+    "sitemap",
+    "indexnow",
+    "seo",
+    "search-engine",
+    "indexing",
+    "cli"
+  ],
+  "author": "TheRealPerson98",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealPerson98/SitemapNow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRealPerson98/SitemapNow/issues"
+  },
+  "homepage": "https://github.com/TheRealPerson98/SitemapNow#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.11",
+    "@types/node-fetch": "^2.6.12",
+    "@types/xml2js": "^0.4.14",
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
+    "eslint": "^9.23.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.23.0",
+    "@jest/globals": "^29.7.0",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "inquirer": "^12.5.0",
+    "node-fetch": "^3.3.2",
+    "xml2js": "^0.6.2"
+  }
+}

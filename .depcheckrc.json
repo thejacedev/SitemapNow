@@ -1,0 +1,13 @@
+{
+  "ignores": [
+    "@types/jest",
+    "ts-jest",
+    "ts-node"
+  ],
+  "ignore-patterns": [
+    "dist",
+    "coverage",
+    "node_modules"
+  ],
+  "skip-missing": false
+} 
