@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![CI](https://github.com/TheRealPerson98/SitemapNow/workflows/CI/badge.svg)](https://github.com/TheRealPerson98/SitemapNow/actions)
+[![CI](https://github.com/thejacedev/SitemapNow/workflows/CI/badge.svg)](https://github.com/thejacedev/SitemapNow/actions)
 [![npm version](https://img.shields.io/npm/v/sitemapnow.svg?style=flat)](https://www.npmjs.com/package/sitemapnow)
 
 **A CLI tool to submit URLs from a sitemap to IndexNow, helping you get your website indexed faster by search engines.**
@@ -112,7 +112,7 @@ This project uses GitHub Actions for CI. It runs tests, linting, and dependency 
 
 ## 📚 Repository
 
-[GitHub Repository](https://github.com/TheRealPerson98/SitemapNow)
+[GitHub Repository](https://github.com/thejacedev/SitemapNow)
 
 ## 📄 License
 

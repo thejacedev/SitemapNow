@@ -1,6 +1,6 @@
 {
   "name": "sitemapnow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to submit URLs from a sitemap to IndexNow",
   "main": "dist/index.js",
   "bin": {
@@ -29,16 +29,16 @@
     "indexing",
     "cli"
   ],
-  "author": "TheRealPerson98",
+  "author": "thejacedev",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheRealPerson98/SitemapNow.git"
+    "url": "git+https://github.com/thejacedev/SitemapNow.git"
   },
   "bugs": {
-    "url": "https://github.com/TheRealPerson98/SitemapNow/issues"
+    "url": "https://github.com/thejacedev/SitemapNow/issues"
   },
-  "homepage": "https://github.com/TheRealPerson98/SitemapNow#readme",
+  "homepage": "https://github.com/thejacedev/SitemapNow#readme",
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
     "@types/jest": "^29.5.14",
